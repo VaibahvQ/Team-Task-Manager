@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Project Admin",
+      "email": "admin@example.com",
+      "role": "Admin",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "createdAt": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "u-member",
+      "name": "Team Member",
+      "email": "member@example.com",
+      "role": "Member",
+      "passwordHash": "5600376e863d2f57a053518f324ad3840b0bc2348b573af281a7b7cbe7a228c6",
+      "createdAt": "2026-04-30T00:00:00.000Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p-demo",
+      "name": "Website Launch",
+      "description": "Plan and deliver the company website launch.",
+      "ownerId": "u-admin",
+      "memberIds": ["u-admin", "u-member"],
+      "createdAt": "2026-04-30T00:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t-design",
+      "projectId": "p-demo",
+      "title": "Create homepage wireframe",
+      "description": "Prepare the first version of the homepage layout.",
+      "assignedTo": "u-member",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-05-03",
+      "createdBy": "u-admin",
+      "createdAt": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "t-content",
+      "projectId": "p-demo",
+      "title": "Collect launch content",
+      "description": "Gather page copy, images, and team bios.",
+      "assignedTo": "u-admin",
+      "status": "Todo",
+      "priority": "Medium",
+      "dueDate": "2026-05-06",
+      "createdBy": "u-admin",
+      "createdAt": "2026-04-30T00:00:00.000Z"
+    }
+  ],
+  "tokens": []
+}

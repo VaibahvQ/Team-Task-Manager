@@ -1,0 +1,19 @@
+{
+  "name": "team-task-manager-full-stack",
+  "version": "1.0.0",
+  "description": "Full-stack React team task manager with authentication, projects, teams, tasks, dashboard, and role-based access control.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "rest-api",
+    "task-manager",
+    "rbac"
+  ],
+  "author": "",
+  "license": "MIT"
+}
